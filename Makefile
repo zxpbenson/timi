@@ -41,7 +41,7 @@ update:
 
 build: 
 	$(GO_BLD) -o bin/main main/main.go
-	$(GO_BLD) -o bin/http.server http.server/main.go
+	$(GO_BLD) -o bin/http.server main/http.server/main.go
 
 test:
 	$(GOTEST) ./...
