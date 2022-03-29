@@ -1,4 +1,5 @@
 bin/*
 logs/*
 profile.out
+.DS_Store
 
